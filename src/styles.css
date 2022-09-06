@@ -1,1 +1,105 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  text-align: center;
+}
+/*
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: white;
+  background-color: #198754;
+}
+
+a:hover{
+  color: blue;
+  background-color: white;
+  border-radius: 5px;
+}
+
+li{
+  margin: 0px 20px;
+  list-style: none;
+}
+ ul{
+  width: 100%;
+  background-color: #2158d9;
+  padding: 20px 0px;
+  display: inline-flex;
+} */
+
+.invalid{
+  color: red;
+}
+
+#nuevo{
+  margin: 50px 100px 0px;
+}
+
+th{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tabla{
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  margin: auto 0px;
+  padding: 0px auto;
+}
+
+
+.form{
+  margin-top: 100px !important;
+  color: black;
+  background-color: white;
+  border: solid 2px white;
+  padding: 20px 20px 20px 0px;
+  border-radius: 20px;
+}
+
+.botonSubmit{
+  margin-left: 10px;
+  border: solid 1px white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #198754;
+  color: white;
+}
+
+.error{
+  margin-top: 200px;
+  padding: 150px 0px;
+  background-color: rgb(91, 0, 0);
+  opacity: 0.75;
+  color: white;
+}
+
+.botonAction{
+  border: solid 1px white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #198754;
+  color: white;
+}
+
+.botonAction:hover{
+  border: solid 1px red;
+  background-color: #2158d9;
+}
+
+.botonCancelar{
+  margin: 40px 0px 0px 30px;
+  border: solid 1px white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: white;
+}

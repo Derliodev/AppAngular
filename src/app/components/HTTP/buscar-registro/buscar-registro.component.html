@@ -1,0 +1,11 @@
+<div id="nuevo" class="form" style="margin: 0px 300px; padding: 10px 35px">
+  <form #searchForm="ngForm" class="row g-3 align-items-center" (ngSubmit)="onSearch()">
+      <table class="mb-4 row">
+          <tr style="margin-top: 30px;">
+              <td>Busqueda</td>
+              <td><input type="text" name="search" [(ngModel)]="searchField"/></td>
+              <td><input class="btn btn-primary" type="submit" name="submit" value="Buscar"/></td>
+          </tr>
+      </table>
+  </form>
+</div>
